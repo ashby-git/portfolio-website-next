@@ -120,7 +120,7 @@ export const ListItem = styled.li`
 export const IconWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 0.75rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column;

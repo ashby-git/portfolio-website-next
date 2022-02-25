@@ -1,3 +1,4 @@
+import Head from "next/Head";
 import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
@@ -10,6 +11,13 @@ import { Section } from "../styles/GlobalComponents";
 const Home = () => {
   return (
     <Layout>
+      <Head>
+        <title>Ashby McFall | React Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Check out my latest web development projects!"
+        />
+      </Head>
       <Section grid>
         <Hero />
         <BgAnimation />

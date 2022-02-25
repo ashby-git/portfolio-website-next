@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
 
 import * as S from "./HeaderStyles";
 
@@ -10,7 +9,7 @@ const Header = () => (
     <S.Div1>
       <Link href="/">
         <S.NavTitleLink>
-          <DiCssdeck size="3rem" />
+          <img src={"/favicon.ico"} />
           <S.Span>Ashby McFall</S.Span>
         </S.NavTitleLink>
       </Link>

@@ -7,10 +7,20 @@ import * as S from "./FooterStyles";
 const Footer = () => {
   return (
     <S.FooterWrapper>
-      <S.LinkList />
+      <S.LinkList>
+        <S.LinkColumn>
+          <S.LinkTitle>Email</S.LinkTitle>
+          <S.LinkItem href="mailto:ashbymcfall@hotmail.co.uk">
+            ashbymcfall@hotmail.co.uk
+          </S.LinkItem>
+        </S.LinkColumn>
+      </S.LinkList>
       <S.SocialIconsContainer>
         <S.CompanyContainer>
-          <S.Slogan>Ashby McFall</S.Slogan>
+          <S.Slogan>
+            “To travel, to experience and learn: that is to live” - Tenzing
+            Norgay.{" "}
+          </S.Slogan>
         </S.CompanyContainer>
         <S.SocialContainer>
           <SocialIcons href="https://github.com/ashby-git">
