@@ -1,4 +1,4 @@
-import Head from "next/Head";
+import Head from "next/head";
 import Accomplishments from "../components/Accomplishments/Accomplishments";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
