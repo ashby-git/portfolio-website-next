@@ -46,3 +46,10 @@ export const projects = [
     id: 3,
   },
 ];
+
+export const TimeLineData = [
+  { year: 2017, text: "Studied Abroad in Kyoto, Japan" },
+  { year: 2018, text: "Graduated University in the U.K." },
+  { year: 2019, text: "Moved to Osaka, Japan" },
+  { year: 2020, text: "Moved to Tokyo, Japan" },
+];
