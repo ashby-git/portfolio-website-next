@@ -53,3 +53,10 @@ export const TimeLineData = [
   { year: 2019, text: "Moved to Osaka, Japan" },
   { year: 2020, text: "Moved to Tokyo, Japan" },
 ];
+
+export const AccomplishmentsData = [
+  { number: 4, text: "Personal Projects built" },
+  { number: 400, text: "Github commits in the last year" },
+  { number: 15, text: "Countries travelled to" },
+  { number: 2, text: "Countries lived in" },
+];
