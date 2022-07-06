@@ -3,9 +3,9 @@ import React from 'react';
 import { ButtonBack, ButtonFront } from './index';
 
 const Button = (props) => (
-  <a target="_blank" href={props.href}>
-    <ButtonBack alt={props.alt} form={props.form} disabled={props.disabled}>
-      {props.children}
+  <ButtonBack alt={props.alt} form={props.form} disabled={props.disabled}>
+    {props.children}
+    <a target="_blank" href={props.href}>
       <ButtonFront
         alt={props.alt}
         onClick={props.onClick}
@@ -13,8 +13,8 @@ const Button = (props) => (
       >
         {props.children}
       </ButtonFront>
-    </ButtonBack>
-  </a>
+    </a>
+  </ButtonBack>
 );
 
 export default Button;
