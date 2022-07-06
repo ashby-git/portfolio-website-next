@@ -1,15 +1,15 @@
-import Link from "next/link";
-import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import Link from 'next/link';
+import React from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-import * as S from "./HeaderStyles";
+import * as S from './HeaderStyles';
 
 const Header = () => (
   <S.Container>
     <S.Div1>
       <Link href="/">
         <S.NavTitleLink>
-          <img src={"/favicon.ico"} />
+          <img src={'/favicon.ico'} />
           <S.Span>Ashby McFall</S.Span>
         </S.NavTitleLink>
       </Link>
@@ -32,10 +32,13 @@ const Header = () => (
       </li>
     </S.Div2>
     <S.Div3>
-      <S.SocialIcons href="https://github.com/ashby-git">
+      <S.SocialIcons target="_blank" href="https://github.com/ashby-git">
         <AiFillGithub size="3rem" />
       </S.SocialIcons>
-      <S.SocialIcons href="https://linkedin.com/in/ashby-mcfall-063627158">
+      <S.SocialIcons
+        target="_blank"
+        href="https://linkedin.com/in/ashby-mcfall-063627158"
+      >
         <AiFillLinkedin size="3rem" />
       </S.SocialIcons>
     </S.Div3>

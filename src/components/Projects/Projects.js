@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import * as S from "./ProjectsStyles";
+import * as S from './ProjectsStyles';
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+} from '../../styles/GlobalComponents';
+import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section id="projects">
@@ -31,8 +31,12 @@ const Projects = () => (
             </S.TagList>
           </div>
           <S.UtilityList>
-            <S.ExternalLinks href={project.visit}>Live Site</S.ExternalLinks>
-            <S.ExternalLinks href={project.source}>Code</S.ExternalLinks>
+            <S.ExternalLinks target="_blank" href={project.visit}>
+              Live Site
+            </S.ExternalLinks>
+            <S.ExternalLinks target="_blank" href={project.source}>
+              Code
+            </S.ExternalLinks>
           </S.UtilityList>
         </S.BlogCard>
       ))}

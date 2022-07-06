@@ -1,8 +1,8 @@
-import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import React from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-import { SocialIcons } from "../Header/HeaderStyles";
-import * as S from "./FooterStyles";
+import { SocialIcons } from '../Header/HeaderStyles';
+import * as S from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -19,14 +19,17 @@ const Footer = () => {
         <S.CompanyContainer>
           <S.Slogan>
             “To travel, to experience and learn: that is to live” - Tenzing
-            Norgay.{" "}
+            Norgay.{' '}
           </S.Slogan>
         </S.CompanyContainer>
         <S.SocialContainer>
-          <SocialIcons href="https://github.com/ashby-git">
+          <SocialIcons target="_blank" href="https://github.com/ashby-git">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com/in/ashby-mcfall-063627158">
+          <SocialIcons
+            target="_blank"
+            href="https://linkedin.com/in/ashby-mcfall-063627158"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </S.SocialContainer>
