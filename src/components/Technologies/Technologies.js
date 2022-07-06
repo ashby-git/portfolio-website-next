@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   SiHtml5,
   SiCss3,
@@ -12,14 +12,16 @@ import {
   SiAdobexd,
   SiGithub,
   SiTypescript,
-} from "react-icons/si";
+  SiMongodb,
+  SiTailwindcss,
+} from 'react-icons/si';
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import * as S from "./TechnologiesStyles";
+} from '../../styles/GlobalComponents';
+import * as S from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id="tech">
@@ -56,14 +58,16 @@ const Technologies = () => (
         <S.ListContainer>
           <S.ListTitle>Languages</S.ListTitle>
           <S.ListParagraph>
-            Experience with front-end languages such as HTML, CSS, SASS,
-            Javascript and Typescript.
+            Experience with front-end languages such as HTML, CSS, Javascript
+            and Typescript.
           </S.ListParagraph>
         </S.ListContainer>
       </S.ListItem>
       <S.ListItem>
         <S.IconWrapper>
           <SiFirebase size="3rem" />
+          <SiMongodb size="3rem" />
+          <SiTailwindcss size="3rem" />
           <SiStyledcomponents size="3rem" />
           <SiFigma size="3rem" />
           <SiGithub size="3rem" />
@@ -71,8 +75,9 @@ const Technologies = () => (
         <S.ListContainer>
           <S.ListTitle>Other Tools</S.ListTitle>
           <S.ListParagraph>
-            Experience with Firebase, Firestore. As well as working with other
-            tools such as Styled-Components, Figma and Git workflows.
+            Experience with backend services such as Firebase, Firestore and
+            MongoDB. Worked with Styled-Components and TailwindCSS libraries.
+            Other tools include: Figma and Git workflows.
           </S.ListParagraph>
         </S.ListContainer>
       </S.ListItem>
