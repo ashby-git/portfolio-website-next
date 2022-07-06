@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+import Link from 'next/link';
 
 import {
   Section,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+} from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
+import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
@@ -20,11 +21,9 @@ const Hero = () => (
         who is dedicated to creating responsive, user-friendly and aesthetically
         pleasing web applications.
       </SectionText>
-      <Button
-        onclick={() => (window.location = "https://github.com/ashby-git")}
-      >
-        Learn More
-      </Button>
+      <Link href="#about">
+        <Button>Learn More</Button>
+      </Link>
     </LeftSection>
   </Section>
 );
